@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop Kart</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/64/000000/shop--v7.png">
+    <!-- CSS style sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/540b12adac.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Navbar section -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="color" href="#">Shop Kart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" id="color" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="color" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color:white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cart
+              </a>
+              <ul class="dropdown-menu" id="color" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Favorites</a></li>
+                <li><a class="dropdown-item" href="#">Watch Cart</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="btn dropdown-item" href="#">Proceed to buy</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" id="search-box" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+<!-- container section -->
+
+    <div class="container-fluid" id="container-section">
+      <img class="container-image" src="images/2069539.jpg" alt="">
+      <p class="title">Shop Kart</p>
+      <p class="slogan">The only choice!</p>
+        <a href="shop.html"><button class="btn" id="shop-now-btn-top" type="button" name="button">Shop now</button></a>
+    </div>
+
+  <!-- Review section -->
+
+    <div id="container">
+      <h3>Testimonials</h3>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" id="review-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" id="review-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" id="review-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="review-div">
+            <img src="images\cool-profile-pictures-retouching-1.jpg" id="review-images" alt="...">
+            <br>
+            <p class="reviewe-name">Candice, Mexico</p>
+            <p class="review-content">One of the awesome shopping site ever i shopped in my life.</p>
+          </div>
+          <div class="carousel-item" id="review-div">
+            <img src="images\Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture-1024x1024.jpg" id="review-images" alt="...">
+            <br>
+            <p class="reviewe-name">Eden, washington</p>
+            <p class="review-content">Wow! Thats amazing i got my delivery within 24 hrs by shop Kart. I love fast deliveries.</p>
+          </div>
+          <div class="carousel-item" id="review-div">
+            <img src="images\pexels-photo-220453.jpeg" id="review-images" alt="...">
+            <br>
+            <p class="reviewe-name">Sherin, Germany</p>
+            <p class="review-content">Best price products & first class quality where i bought all my need here.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="sponsors">
+      <h3 style="color: #5118DB; padding-top:2%;">Sponsors</h3>
+      <img class="sponsors-images" src="images\OO90880.jpg" alt="">
+      <img class="sponsors-images" src="images\4311.jpg" alt="">
+      <img class="sponsors-images" src="images\preview.jpg" alt="">
+    </div>
+    <div class="shop-now-btn">
+      <a href="shop.html"><button class="btn" id="shop-now-btn" type="button" name="button">Shop now</button></a>
+    </div>
+    <!-- footer -->
+
+    <div class="footer-part">
+      <a href="#" class="tfie"><i id="fimg" class="fab fa-twitter"></i></a>
+      <a href="#" class="tfie"><i id="fimg" class="fab fa-facebook-f"></i></a>
+      <a href="#" class="tfie"><i id="fimg" class="fab fa-instagram"></i></a>
+      <a href="#" class="tfie"><i id="fimg" class="fa fa-envelope"></i></a>
+      <footer>&#169; Copyrighted since 2021.</footer>
+    </div>
+
+  </body>
+</html>

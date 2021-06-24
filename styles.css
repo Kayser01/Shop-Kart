@@ -1,0 +1,214 @@
+/* Navbar css */
+
+#nav-bg{
+  background-color: #5118DB;
+}
+
+#color{
+  color: white;
+}
+
+#search-box{
+  color: white;
+  border-color: white;
+}
+#search-box:hover{
+  background-color: white;
+  color: #5118DB;
+}
+
+/* container css */
+
+#container-section{
+  position: relative;
+  text-align: center;
+}
+
+.container-image{
+  width: 90%;
+  margin: 3% 5%;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+  border-radius: 10px !important;
+}
+
+.title{
+  position: absolute;
+  top: 36%;;
+  left: 16%;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px grey;
+}
+.slogan{
+  position: absolute;
+  top: 54%;;
+  left: 16%;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px grey;
+}
+
+#shop-now-btn-top{
+  border-color: black;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 69%;;
+  left: 27%;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width:1080px) {
+  .title{
+    font-size: 40px;
+    top:30%;
+    left:12%;
+  }
+  .slogan{
+    font-size: 25px;
+    top:48%;
+    left:12%;
+  }
+  #shop-now-btn-top{
+    font-size: 0.7rem;
+    top: 65%;;
+    left: 23%;
+  }
+}
+
+
+#shop-now-btn-top:hover{
+  background-color: white;
+  color:black;
+}
+
+
+/* review css */
+
+#container{
+  background-color:#6816C7;
+  padding: 5% 0;
+}
+
+h3{
+  text-align: center;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 4%;
+}
+
+#review-div{
+  text-align: center;
+  color: white;
+}
+
+#review-images{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.reviewe-name{
+  padding: 1% 2% 2% 2%;
+  font-style: italic;
+}
+
+.review-content{
+  padding: 0 3% 3% 3%;
+  font-size: 1.5rem;
+}
+
+#review-button{
+  margin-bottom:-15px !important;
+}
+
+/* sponsor */
+
+.sponsors{
+  text-align: center;
+}
+.sponsors-images{
+  width: 20%;
+  padding: 0 4%;
+}
+
+.shop-now-btn{
+  text-align: center;
+  padding: 2%;
+}
+
+#shop-now-btn{
+  border-color: #5118DB;
+}
+
+#shop-now-btn:hover{
+  background-color: #5118DB;
+  color: white;
+}
+
+/* shopping */
+
+.cards{
+  text-align: center;
+  padding: 1%;
+}
+@media only screen and (max-width:575px) {
+  .cards{
+    margin: 0 20%;
+  }
+}
+
+
+#cards{
+  width: 18rem;
+  height: 25rem;
+}
+
+#shop-image{
+  width:286px;
+  height:209px;
+}
+
+.pad{
+  padding: 1%;
+  align-self: auto;
+}
+
+
+#buy-btn{
+  padding-left: 39px;
+  padding-right:39px;
+  margin-top: 1%;
+  background-color: #5118DB;
+}
+#buy-btn:focus{
+  background-color:  #6816C7;
+}
+
+#shop-cart-btn{
+  border-color: #5118DB;
+}
+#shop-cart-btn:hover{
+  background-color: #5118DB;
+  color: white;
+}
+
+/* footer */
+
+.tfie{
+  color:white;
+}
+.tfie:hover{
+  transition-duration: 0.9s;
+  color: #8f8f8f;
+}
+
+#fimg {
+    padding: 1% 1% 2% 1%;
+}
+
+.footer-part{
+  background-color: #6816C7;
+  color: white;
+  text-align: center;
+  padding: 3% 0;
+}
